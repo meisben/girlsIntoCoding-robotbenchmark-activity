@@ -7,28 +7,46 @@ A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) usi
 
 This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace.
 
-# Contents
+## Contents
 Here is an overview of this webpage!:
 
 * Resources
+* Why simulate robots?
 * What is a robot simulator?
-* Why is simulating robots important?
+* What can you do in a robot simulator?
 * First steps using the robot simulator
 * Making a robot move
 
-# Resources
+## Resources
 There's some things that are going to help us with this session, and here's the links to them below. You don't need to click them now! But they might help us as we go along!
 
 * Python cheatsheet
 * Webots documentation
 
-# What is a robot simulator?
+## What is a robot simulator?
 
-adfsd
+A robot simulator is like a video game, with robots in it! It's a very realistic version of the world, with one or more virtual robots inside.
 
-[![](https://api.gh-polls.com/poll/01EEGMB0DNJFBCJWPMPC6HZSBJ/flying)](https://api.gh-polls.com/poll/01EEGMB0DNJFBCJWPMPC6HZSBJ/flying/vote)
-[![](https://api.gh-polls.com/poll/01EEGMB0DNJFBCJWPMPC6HZSBJ/walking)](https://api.gh-polls.com/poll/01EEGMB0DNJFBCJWPMPC6HZSBJ/walking/vote)
-[![](https://api.gh-polls.com/poll/01EEGMB0DNJFBCJWPMPC6HZSBJ/swimming)](https://api.gh-polls.com/poll/01EEGMB0DNJFBCJWPMPC6HZSBJ/swimming/vote)
+### Let's try it out!
+
+We're going to be using [robotbenchmark](https://www.cyberbotics.com/) in this activity, which is a online version of the 'Webots' simulator. 
+
+Navigate there in your browser now !
+
+Let's click on the (https://robotbenchmark.net/benchmark/pick_and_place/simulation.php)
+
+## Why simulate robots?
+
+Why would we want to simulate robots? .... Well because it's helpful for designing them.
+
+*Question:* If you become a robot designer in the future, what kind of robots would you prefer to build?
+
+[![](https://api.gh-polls.com/poll/01EEGW8S2A8MZSB06RH6Q7HWV9/Social%20robots)](https://api.gh-polls.com/poll/01EEGW8S2A8MZSB06RH6Q7HWV9/Social%20robots/vote)
+[![](https://api.gh-polls.com/poll/01EEGW8S2A8MZSB06RH6Q7HWV9/Flying%20robots)](https://api.gh-polls.com/poll/01EEGW8S2A8MZSB06RH6Q7HWV9/Flying%20robots/vote)
+[![](https://api.gh-polls.com/poll/01EEGW8S2A8MZSB06RH6Q7HWV9/Swarms%20of%20robots)](https://api.gh-polls.com/poll/01EEGW8S2A8MZSB06RH6Q7HWV9/Swarms%20of%20robots/vote)
+[![](https://api.gh-polls.com/poll/01EEGW8S2A8MZSB06RH6Q7HWV9/Medical%20robots)](https://api.gh-polls.com/poll/01EEGW8S2A8MZSB06RH6Q7HWV9/Medical%20robots/vote)
+[![](https://api.gh-polls.com/poll/01EEGW8S2A8MZSB06RH6Q7HWV9/Soft%2C%20animal-like%20robots)](https://api.gh-polls.com/poll/01EEGW8S2A8MZSB06RH6Q7HWV9/Soft%2C%20animal-like%20robots/vote)
+[![](https://api.gh-polls.com/poll/01EEGW8S2A8MZSB06RH6Q7HWV9/Self%20driving%20robots)](https://api.gh-polls.com/poll/01EEGW8S2A8MZSB06RH6Q7HWV9/Self%20driving%20robots/vote)
 
 
 
