@@ -1,7 +1,16 @@
 ---
 layout: page
-title: Bootstrap 4 Github Pages
+title: Simulating Robots! 
 ---
+
+A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) using a online version of the free open source [Webots](https://www.cyberbotics.com/) robot simulator.
+
+# Contents
+
+
+
+
+
 
 A [Bootstrap 4](https://getbootstrap.com/) start up project for [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
 
