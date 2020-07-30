@@ -7,13 +7,6 @@ A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) usi
 
 This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace.
 
-Alt-H1
-
-Alt-H2
-
-Alt-H2
-------
-
 ## Contents
 ---
 Here is an overview of this webpage!:
@@ -26,22 +19,25 @@ Here is an overview of this webpage!:
 * Making a robot move
 
 ## Resources
+---
 There's some things that are going to help us with this session, and here's the links to them below. You don't need to click them now! But they might help us as we go along!
 
 * Python cheatsheet
 * Webots documentation
 
 ## What is a robot simulator?
-
+---
 A robot simulator is like a video game, with robots in it! It's a very realistic version of the world, with one or more virtual robots inside.
 
-### Let's try it out!
+### Let's try it out!!
 
 We're going to be using [robotbenchmark](https://www.cyberbotics.com/) in this activity, which is a online version of the 'Webots' simulator. 
 
 Navigate there in your browser now !
 
-Let's click on the (https://robotbenchmark.net/benchmark/pick_and_place/simulation.php)
+Click on the start button for the [pick and place](https://robotbenchmark.net/benchmark/pick_and_place/simulation.php) activity.
+
+You will see a video in the top right hand corner of the screen, try click
 
 ## Why simulate robots?
 
