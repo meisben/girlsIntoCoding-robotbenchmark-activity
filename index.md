@@ -6,7 +6,7 @@ title: Simulating Robots!
 
 A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) using a online version of the free open source [Webots](https://www.cyberbotics.com/) robot simulator.
 
-This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace.
+This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace. We're going to be doing some basic python programming in this activity. If you're not too familiar with Python, don't worry, you'll be able to follow along :) ! 
 
 <!--Comment: Paragrpah spacing-->
 <br>
@@ -121,9 +121,37 @@ In the video you can see robotics professor Sabine Hauert talking about swarms o
 * Let's return to the [robotbenchmark](https://robotbenchmark.net/) website.
 * Click on the **Start** button next to the **Robot Programming** activity
 * Click on **Start programming this benchmark**
-* Follow the instructions in the top left hand corner of the screen
-* When you have found the correct view click on the **record** button on the **metrics** tab
+* Read the instructions in the top left hand corner of the screen. You can resize the instruction window by dragging its bottom corner.
+* When you're ready to program the robot, right click on it, and select **Edit controller**
 
+![Activity3Picture1](images/programmingRobot_imageText1.jpg)
+
+* A window will pop up with python code in it! This is how we program our virtual robot.
+* The same code is shown below with some comments which describe the purpose of each line
+
+~~~~{.python}
+# python code
+
+"""Simple robot controller."""
+
+from controller import Robot
+import sys
+
+# Define the target motor position in radians.
+target = 0
+
+# Get pointer to the robot.
+robot = Robot()
+
+# Print the program output on the console
+print("Move the motors of the Thymio II to position " + str(target) + ".")
+sys.stderr.write("This is a sample error message.\n")
+
+# Set the target position of the left and right wheels motors.
+robot.getMotor("motor.left").setPosition(target)
+robot.getMotor("motor.right").setPosition(target)
+
+~~~~
 
 ---
 
