@@ -25,7 +25,10 @@ Here are some links that might help us with this sesion! You don't need to click
 * Python cheatsheet
 * Webots documentation
 
----
+<!--Comment: Paragrpah spacing-->
+<br>
+<br>
+
 # What is a robot simulator?
 ---
 A robot simulator is like a video game, with robots in it! It's a very realistic version of the world, with one or more virtual robots inside. Let's try it out !! 
@@ -42,9 +45,12 @@ Click on the start button for the [pick and place](https://robotbenchmark.net/be
 
 You will see a simulation running already, in the top right hand corner of the screen, try clicking on it.
 
-<p class="text-primary">Right click:</p><p> rotate</p>
+<p class="text-primary"><b>Left click:</b> rotate</p>
+<p class="text-primary"><b>Right click:</b> move</p>
 
 ![introPicture](images/pickAndPlaceScreenText.jpg)
+
+You can click on any of the 'run' buttons to see someone else's attempt at coding the robot. Try clicking on the run button next to Konstantina's record.
 
 <!--Comment: Paragrpah spacing-->
 <br>
