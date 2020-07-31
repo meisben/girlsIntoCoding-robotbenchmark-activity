@@ -27,12 +27,10 @@ Here are some links that might help us with this sesion! You don't need to click
 
 ## What is a robot simulator?
 ---
-A robot simulator is like a video game, with robots in it! It's a very realistic version of the world, with one or more virtual robots inside.
-
-### Let's try it out!!
+A robot simulator is like a video game, with robots in it! It's a very realistic version of the world, with one or more virtual robots inside. Let's try it out !! 
 
 <div class="container p-3 my-3 bg-primary text-primary">
-<h2>Activity #2</h2>
+<h2>Activity #1</h2>
 </div>
 
 We're going to be using [robotbenchmark](https://robotbenchmark.net/) in this activity, which is a online version of the 'Webots' simulator. 
@@ -41,7 +39,9 @@ Navigate there in your browser now !
 
 Click on the start button for the [pick and place](https://robotbenchmark.net/benchmark/pick_and_place/simulation.php) activity.
 
-You will see a video in the top right hand corner of the screen, try click
+You will see a video in the top right hand corner of the screen, try clicking on it.
+
+![introPicture](images/pickAndPlaceScreenText.jpg)
 
 ## Why simulate robots?
 ---
