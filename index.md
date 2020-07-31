@@ -12,7 +12,7 @@ This session is designed to be fun! The idea is that we can follow it together o
 <br>
 <br>
 
-<div class="container p-3 my-3 bg-light text-gray">
+<div class="container p-3 my-3 bg-secondary">
 <h2>Contents</h2>
 <ul class="list-group">
   <li class="list-group-item">Resources</li>
@@ -23,7 +23,7 @@ This session is designed to be fun! The idea is that we can follow it together o
 </ul>
 </div>
 
-<div class="container p-3 my-3 bg-info text-gray">
+<div class="container p-3 my-3 bg-info">
 <h2>Resources</h2> 
   <p>Here's some resources that may help with the activity. No need to click on them yet! :)</p>
 <ul class="list-group">
@@ -215,12 +215,12 @@ robot.getMotor("motor.right").setPosition(target)
 
   </div>
 </div>
+<br>
 
-<br>
+
 ![Activity3Picture3](images/programmingRobot_imageText3.jpg)
-<br>
+
 ![Activity3CompMessage](images/completionMessageText.jpg)
-<br>
 
 <!--Comment: Paragrpah spacing-->
 <br>
