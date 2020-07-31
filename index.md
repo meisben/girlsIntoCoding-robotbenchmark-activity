@@ -186,26 +186,30 @@ robot.getMotor("motor.right").setPosition(target)
   <div id="demo" class="collapse" markdown="1">
     
     ```python
+    
     """Simple robot controller."""
 
-    from controller import Robot ## THESE LINES IMPORT CODE LIBRARIES SO WE CAN TALK TO THE ROBOT :)
-    import sys 
+    ## This controller makes the robot turn on the spot!
 
-    # Define the target motor position in radians.
-    target = 12 ## WE CREATE THIS VARIABLE TO SET HOW FAR THE ROBOT WILL MOVE :)
+    from controller import Robot
+    import sys
+
+    # Define the target for each motor position in radians.
+    targetLeft = -100
+    targetRight = 100
 
     # Get pointer to the robot.
-    robot = Robot() ## HERE WE MAKE A LINK TO THE VIRTUAL ROBOT :)
+    robot = Robot()
 
     # Print the program output on the console
-    # ## IF YOU CLICK ON THE CONSOLE BUTTON YOU WILL SEE THE PRINT MESSAGES ! :) 
-    print("Move the motors of the Thymio II to position " + str(target) + ".")
+    print("Move the left motor of the Thymio II to position " + str(targetLeft) + ".")
+    print("Move the left motor of the Thymio II to position " + str(targetRight) + ".")
     sys.stderr.write("This is a sample error message.\n")
 
     # Set the target position of the left and right wheels motors.
-    ## THESE LINES TELL EACH MOTOR ON THE ROBOT HOW FAR TO MOVE :)
-    robot.getMotor("motor.left").setPosition(target)
-    robot.getMotor("motor.right").setPosition(target)
+    robot.getMotor("motor.left").setPosition(targetLeft)
+    robot.getMotor("motor.right").setPosition(targetRight)
+    
     ```
 
   </div>
