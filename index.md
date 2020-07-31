@@ -7,11 +7,11 @@ A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) usi
 
 This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace.
 
-<div class="container p-3 my-3 bg-primary text-white">
+<div class="container p-3 my-3 bg-secondary text-secondary">
   
 <h2>Contents</h2>
 <ul class="list-group">
-  <li class="list-group-item text-primary">Resources</li>
+  <li class="list-group-item">Resources</li>
   <li class="list-group-item">What is a robot simulator?</li>
   <li class="list-group-item">Why simulate robots?</li>
   <li class="list-group-item">First steps using the robot simulator</li>
