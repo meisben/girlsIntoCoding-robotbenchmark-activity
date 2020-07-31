@@ -184,6 +184,7 @@ robot.getMotor("motor.right").setPosition(target)
 <div class="container">
   <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">Example answer</button>
   <div id="demo" class="collapse" markdown="1">
+    
     ```python
     """Simple robot controller."""
 
