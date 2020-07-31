@@ -52,6 +52,12 @@ You will see a video in the top right hand corner of the screen, try click
 
 Why would we want to simulate robots? .... Well because it's helpful for designing them.
 
+<div class="container p-3 my-3 bg-primary text-white">
+  
+<h2>Poll!</h1>
+<b>Question</b> If you become a robot designer in the future, what kind of robots would you prefer to build?
+</div>
+
 **Question:** *If you become a robot designer in the future, what kind of robots would you prefer to build?*
 
 [//]: # (Comment: start of embedded poll, for source see: https://github.com/apex/gh-polls)
