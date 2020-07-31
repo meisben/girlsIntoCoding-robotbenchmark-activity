@@ -96,11 +96,27 @@ In the video you can see robotics professor Sabine Hauert talking about swarms o
 * Let's return to the [robotbenchmark](https://robotbenchmark.net/) website.
 * Click on the **Start** button next to the **Viewpoint Control** activity
 * Click on **Start programming this benchmark**
-*
+* Follow the instructions in the top left hand corner of the screen
+* When you have found the correct view click on the **record** button on the **metrics** tab
+
+![introPicture](images/viewPointControl_imageText1.jpg)
+
+<!--Comment: Paragrpah spacing-->
+<br>
+<br>
+
+# Programming the robot!
+---
 
 <div class="container p-3 my-3 bg-primary text-primary">
 <h2>Activity #3</h2>
 </div>
+
+* Let's return to the [robotbenchmark](https://robotbenchmark.net/) website.
+* Click on the **Start** button next to the **Robot Programming** activity
+* Click on **Start programming this benchmark**
+* Follow the instructions in the top left hand corner of the screen
+* When you have found the correct view click on the **record** button on the **metrics** tab
 
 
 ---
