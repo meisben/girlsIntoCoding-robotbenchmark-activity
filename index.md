@@ -9,9 +9,15 @@ This session is designed to be fun! The idea is that we can follow it together o
 
 <div class="container p-3 my-3 bg-primary text-white">
   
-## Contents
----
-Here is an overview of this webpage!:
+<h1>Contents</h1>
+<ul class="list-group">
+  <li class="list-group-item">Resources</li>
+  <li class="list-group-item">Why simulate robots?</li>
+  <li class="list-group-item">What is a robot simulator?</li>
+  <li class="list-group-item">First steps using the robot simulator</li>
+  <li class="list-group-item">Making a robot move</li>
+</ul>
+</div>
 
 * Resources
 * Why simulate robots?
@@ -20,11 +26,10 @@ Here is an overview of this webpage!:
 * First steps using the robot simulator
 * Making a robot move
 
-</div>
 
 ## Resources
 ---
-There's some things that are going to help us with this session, and here's the links to them below. You don't need to click them now! But they might help us as we go along!
+Here are some links that might help us with this sesion! You don't need to click them now! But they might help us as we go along!
 
 * Python cheatsheet
 * Webots documentation
