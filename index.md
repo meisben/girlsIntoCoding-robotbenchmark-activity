@@ -27,8 +27,8 @@ This session is designed to be fun! The idea is that we can follow it together o
 <h2>Resources</h2> 
   <p>Here's some resources that may help with the activity. No need to click on them yet! :)</p>
 <ul class="list-group">
-  <a href="https://www.pythoncheatsheet.org/" class="list-group-item list-group-item-action">Python cheatsheet</a>
-  <a href="https://www.cyberbotics.com/doc/reference/index" class="list-group-item list-group-item-action">Webots documentation</a>
+  <a href="https://www.pythoncheatsheet.org/" target="_blank" class="list-group-item list-group-item-action">Python cheatsheet</a>
+  <a href="https://www.cyberbotics.com/doc/reference/index" target="_blank" class="list-group-item list-group-item-action">Webots documentation</a>
 </ul>
 </div>
 
