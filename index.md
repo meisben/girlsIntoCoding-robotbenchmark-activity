@@ -12,7 +12,7 @@ This session is designed to be fun! The idea is that we can follow it together o
 <br>
 <br>
 
-<div class="container p-3 my-3 bg-secondary">
+<div class="container p-3 my-3 bg-primary">
 <h2>Contents</h2>
 <ul class="list-group">
   <li class="list-group-item">Resources</li>
@@ -186,9 +186,7 @@ robot.getMotor("motor.right").setPosition(target)
 <div class="container">
   <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">Example answer</button>
   <div id="demo" class="collapse" markdown="1">
-    
-    ```python
-    
+      
     """Simple robot controller."""
 
     ## This controller makes the robot turn on the spot!
@@ -211,8 +209,7 @@ robot.getMotor("motor.right").setPosition(target)
     # Set the target position of the left and right wheels motors.
     robot.getMotor("motor.left").setPosition(targetLeft)
     robot.getMotor("motor.right").setPosition(targetRight)    
-    ```
-
+    
   </div>
 </div>
 <br>
