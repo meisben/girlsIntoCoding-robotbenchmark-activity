@@ -180,6 +180,7 @@ robot.getMotor("motor.right").setPosition(target)
 * Right click on the robot and select **Edit controller**
 * Have a look at the code, is there a way you could make a different target for each motor?
 * Give it a go ! if you get stuck you can take a look at the example answer :) 
+* Don't worry if a completion message comes up, if you click on the **okay button** the simulation will keep running
 
 <div class="container">
   <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">Example answer</button>
@@ -208,8 +209,7 @@ robot.getMotor("motor.right").setPosition(target)
 
     # Set the target position of the left and right wheels motors.
     robot.getMotor("motor.left").setPosition(targetLeft)
-    robot.getMotor("motor.right").setPosition(targetRight)
-    
+    robot.getMotor("motor.right").setPosition(targetRight)    
     ```
 
   </div>
