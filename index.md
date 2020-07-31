@@ -2,7 +2,7 @@
 layout: page
 title: Simulating Robots! 
 ---
-![logoPicture](images/girlsIntoCodingLogo.jpg)
+[![logoPicture](images/girlsIntoCodingLogo.jpg)](https://www.girlsintocoding.com/)
 
 A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) using a online version of the free open source [Webots](https://www.cyberbotics.com/) robot simulator.
 
@@ -67,7 +67,7 @@ You can click on any of the 'run' buttons to see someone else's attempt at codin
 
 Why would we want to simulate robots? .... Well because it's helpful for designing them. Let's take a look at this video.
 
-[![Quad copter video](https://img.youtube.com/vi/xNKR2f1ov2s/0.jpg)](https://youtu.be/xNKR2f1ov2s?t=97)
+[![Flying robot swarm video](https://img.youtube.com/vi/xNKR2f1ov2s/0.jpg)](https://youtu.be/xNKR2f1ov2s?t=97)
 
 In the video you can see robotics professor Sabine Hauert talking about swarms of flying robots that she designed. The robots are tested in simulation!. If something is wrong with the software, and the robots crash :( it doesn't break the real robot! Sabine can just change the software and restart the simulation until the robots are flying well! Then Sabine can try it on the real swarm of robots!
 
