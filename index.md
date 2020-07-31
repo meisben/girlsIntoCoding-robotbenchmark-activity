@@ -223,7 +223,7 @@ robot.getMotor("motor.right").setPosition(target)
 <br>
 <br>
 
-# Making the robot move forward and then turn
+# Working with python functions
 ---
 
 <div class="container p-3 my-3 bg-primary text-primary">
