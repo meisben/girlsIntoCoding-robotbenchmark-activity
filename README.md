@@ -1,4 +1,4 @@
-# An online robot activity for Girls Into Coding
+# An online robotics activity for Girls Into Coding
 
 [![logoPicture](images/girlsIntoCodingLogo.jpg)](https://www.girlsintocoding.com/)
 
