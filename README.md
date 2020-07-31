@@ -1,5 +1,7 @@
 # An online robot activity for Girls Into Coding
 
+[![logoPicture](images/girlsIntoCodingLogo.jpg)](https://www.girlsintocoding.com/)
+
 A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) using a online version of the free open source [Webots](https://www.cyberbotics.com/) robot simulator.
 
 This activity is generated as a webpage at [https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity/](https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity/)
@@ -7,18 +9,29 @@ This activity is generated as a webpage at [https://meisben.github.io/girlsIntoC
 ## Contents
 
 - Overview
-- Accessing the webpage
+- Accessing the activity webpage
 - Contributing
 - Credit
 - Help and updates
 
 ## Overview
 
-This code library provides functionality to control the EEZYbotARM (Mk1, Mk2) in 3-D space. Specifically its functionality includes: 
+This activity uses [robotbenchmark](https://robotbenchmark.net/) in this activity, which is a online version of the 'Webots' simulator. 
 
-1. 3-D Forward kinematics
-2. 3-D Inverse kinematics
-3. Plotting of the (simulated) robot arm
-4. Plotting of the (simulated) workspace of the robot arm
-5. Communicating with a (arduino) microcontroller
-6. Using the (arduino) microcontroller to control the movement of the robot arm servo motors
+![Activity2Picture](images/viewPointControl_imageText1.jpg)
+
+## Accessing the activity webpage
+
+Simply point your browser to [https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity/](https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity/)
+
+## Contributing
+
+Feel free very welcome to contribute if you find any errors in this activity, by initiating a pull request
+
+## Credit
+
+This activity uses bootstrap in the github pages website, thanks to [https://nicolas-van.github.io/bootstrap-4-github-pages/]()
+
+## Help and updates
+
+If you have any difficulty with the activity please all initiate a pull request to contact for any help :)
