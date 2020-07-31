@@ -129,8 +129,8 @@ In the video you can see robotics professor Sabine Hauert talking about swarms o
 * A window will pop up with python code in it! This is how we program our virtual robot.
 * The same code is shown below with some comments which describe the purpose of each line
 
+<br>
 ```python
-
 """Simple robot controller."""
 
 from controller import Robot
@@ -149,13 +149,30 @@ sys.stderr.write("This is a sample error message.\n")
 # Set the target position of the left and right wheels motors.
 robot.getMotor("motor.left").setPosition(target)
 robot.getMotor("motor.right").setPosition(target)
-
 ```
+<br>
 
-* The instructions ask us to change the value of 
-* The same code is shown below with some comments which describe the purpose of each line
+* The instructions ask us to change the value of the variable **target**
+* Go head and do this now
+* Then save the python file by clicking on the **three bar icon**, and click **save**
+* Now click play to see your virtual robot run your program
 
 
+
+* Try different values for the **target** variable. How about negative values, what does this do?
+* When you want to change the program repeat the steps above
+* To reset the simulation click on the **reset simulation** button
+
+<!--Comment: Paragrpah spacing-->
+<br>
+<br>
+
+# Making the robot turn
+---
+
+<div class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #4</h2>
+</div>
 
 ---
 
