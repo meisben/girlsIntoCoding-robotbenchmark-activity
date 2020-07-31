@@ -282,3 +282,64 @@ turnClockwiseOnSpot(1000)
 turnAntiClockwiseOnSpot(1000)
 stopRobot()
 ```
+
+<br>
+<br>
+
+<div class="container">
+  <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">Example answer</button>
+  <div id="demo" class="collapse" markdown="1">
+      
+    """A simple robot controller with functions"""
+
+    # --- Import the code libraries we need---
+    from controller import Robot
+    import sys
+
+    # --- Create the functions we are going to use ---
+    def moveForwardsInStraightLine(numberOfTimeSteps):
+        target = 9999 # If this number is big and positive the robot will move forwards
+        robot.getMotor("motor.left").setPosition(target) #Assign the motor directions!
+        robot.getMotor("motor.right").setPosition(target)
+        robot.step(numberOfTimeSteps) # The robot moves a little bit each time step
+
+    def moveBackwardsInStraightLine(numberOfTimeSteps):
+        target = -9999 # If this number is big and negative the robot will move backwards
+        robot.getMotor("motor.left").setPosition(target)
+        robot.getMotor("motor.right").setPosition(target)
+        robot.step(numberOfTimeSteps)
+
+    def stopRobot():
+        target = 0 # To stop the robot we set the motor target to zero!
+        robot.getMotor("motor.left").setPosition(target)
+        robot.getMotor("motor.right").setPosition(target)
+
+    def turnClockwiseOnSpot(numberOfTimeSteps):
+        targetLeft = 9999 # Turn wheel forwards
+        targetRight = -9999 # Turn wheel backwards
+        robot.getMotor("motor.left").setPosition(targetLeft) #Assign the motor directions!
+        robot.getMotor("motor.right").setPosition(targetRight)
+        robot.step(numberOfTimeSteps)
+
+    def turnAntiClockwiseOnSpot(numberOfTimeSteps):
+        targetLeft = -9999 # Turn wheel backwards
+        targetRight = 9999 # Turn wheel forwards
+        robot.getMotor("motor.left").setPosition(targetLeft)
+        robot.getMotor("motor.right").setPosition(targetRight)
+        robot.step(numberOfTimeSteps)
+
+    # --- Main code---
+
+    # Get pointer to the robot.
+    robot = Robot()
+
+    # The number in brackets tells the robot how long to move for
+    moveForwardsInStraightLine(1000)  
+    moveBackwardsInStraightLine(1000)
+    turnClockwiseOnSpot(1000)
+    turnAntiClockwiseOnSpot(1000)
+    stopRobot()    
+    
+  </div>
+</div>
+<br>
