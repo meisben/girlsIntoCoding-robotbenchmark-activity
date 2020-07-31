@@ -2,12 +2,11 @@
 layout: page
 title: Simulating Robots! 
 ---
+![logoPicture](images/girlsIntoCodingLogo.jpg)
 
 A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) using a online version of the free open source [Webots](https://www.cyberbotics.com/) robot simulator.
 
 This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace.
-
-![logoPicture](images/girlsIntoCodingLogo.jpg)
 
 <!--Comment: Paragrpah spacing-->
 <br>
@@ -25,7 +24,8 @@ This session is designed to be fun! The idea is that we can follow it together o
 </div>
 
 <div class="container p-3 my-3 bg-info text-info">
-<h2>Resources</h2> Here's some resources that may help with the activity. No need to click on them yet! :)
+<h2>Resources</h2> 
+  <p>Here's some resources that may help with the activity. No need to click on them yet! :)</p>
 <ul class="list-group">
   <a href="https://www.pythoncheatsheet.org/" class="list-group-item list-group-item-action">Python cheatsheet</a>
   <a href="https://www.cyberbotics.com/doc/reference/index" class="list-group-item list-group-item-action">Webots documentation</a>
