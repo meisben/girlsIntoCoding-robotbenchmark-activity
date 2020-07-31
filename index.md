@@ -19,7 +19,7 @@ This session is designed to be fun! The idea is that we can follow it together o
 </div>
 
 <div class="container p-3 my-3 bg-info text-info">
-<h2>Resources</h2>
+<h2>Resources</h2> Here's some resources that may help with the activity. No need to click on them yet! :)
 <ul class="list-group">
   <a href="https://www.pythoncheatsheet.org/" class="list-group-item list-group-item-action">Python cheatsheet</a>
   <a href="https://www.cyberbotics.com/doc/reference/index" class="list-group-item list-group-item-action">Webots documentation</a>
