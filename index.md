@@ -7,7 +7,7 @@ A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) usi
 
 This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace.
 
-<div class="container p-3 my-3 bg-primary text-primary">
+<div class="container p-3 my-3 bg-grey text-grey">
 <h2>Contents</h2>
 <ul class="list-group">
   <li class="list-group-item">Resources</li>
@@ -61,14 +61,12 @@ In the video you can see a quadcopter designer trying out their software on a vi
 
 [//]: # (Comment: start of embedded poll, for source see: https://github.com/apex/gh-polls)
 
-[![](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/Social%20robots)](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/Social%20robots/vote)
-[![](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/Flying%20robots)](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/Flying%20robots/vote)
-[![](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/Swarms%20of%20robots)](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/Swarms%20of%20robots/vote)
-[![](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/Medical%20robots)](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/Medical%20robots/vote)
-[![](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/Soft%2C%20animal-like%20robots)](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/Soft%2C%20animal-like%20robots/vote)
-[![](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/Self%20driving%20robots)](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/Self%20driving%20robots/vote)
-[![](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/All%20of%20them!)](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/All%20of%20them!/vote)
-[![](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/Another%20kind%20of%20robot%20which%20is%20not%20mentioned%20here...)](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/Another%20kind%20of%20robot%20which%20is%20not%20mentioned%20here.../vote)
+[![](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Social%20robots)](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Social%20robots/vote)
+[![](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Flying%20robots)](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Flying%20robots/vote)
+[![](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Swarms%20of%20robots)](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Swarms%20of%20robots/vote)
+[![](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Medical%20robots)](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Medical%20robots/vote)
+[![](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Soft%20animal-like%20robots)](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Soft%20animal-like%20robots/vote)
+[![](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Self%20driving%20robots)](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Self%20driving%20robots/vote)
 
 [//]: # (Comment: end of embedded poll)
 
