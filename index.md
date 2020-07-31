@@ -58,13 +58,11 @@ You can click on any of the 'run' buttons to see someone else's attempt at codin
 # Why simulate robots?
 ---
 
-Why would we want to simulate robots? .... Well because it's helpful for designing them.
+Why would we want to simulate robots? .... Well because it's helpful for designing them. Let's take a look at this video.
 
-Let's take a look at this video.
+[![Quad copter video](https://img.youtube.com/vi/xNKR2f1ov2s/0.jpg)](https://youtu.be/xNKR2f1ov2s?t=97)
 
-[![Quad copter video](https://img.youtube.com/vi/4he7mPV41Xc/0.jpg)](https://www.youtube.com/watch?v=4he7mPV41Xc?t=229)
-
-In the video you can see a quadcopter designer trying out their software on a virtual robot. If it doesn't work, and the robot crashes it doesn't break the quadcopter! They can just change the software and restart the simulation until they get it right! Then they can try it on the real robot.
+In the video you can see a robotics professor Sabine Hauert talking about swarms of flying robots. The robots are tested in simulation!. If something is wrong with the software, and the robots crash it doesn't break the real robot! They can just change the software and restart the simulation until they get it right! Then they can try it on the real swarm of robots!
 
 <svg class="bi" width="32" height="32" fill="currentColor">
   <use xlink:href="bootstrap-icons.svg#heart-fill"/>
