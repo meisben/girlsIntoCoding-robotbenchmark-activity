@@ -7,7 +7,7 @@ A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) usi
 
 This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace.
 
-<div class="container p-3 my-3 bg-grey text-grey">
+<div class="container p-3 my-3 bg-light text-gray">
 <h2>Contents</h2>
 <ul class="list-group">
   <li class="list-group-item">Resources</li>
@@ -30,6 +30,10 @@ Here are some links that might help us with this sesion! You don't need to click
 A robot simulator is like a video game, with robots in it! It's a very realistic version of the world, with one or more virtual robots inside.
 
 ### Let's try it out!!
+
+<div class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #2</h2>
+</div>
 
 We're going to be using [robotbenchmark](https://robotbenchmark.net/) in this activity, which is a online version of the 'Webots' simulator. 
 
@@ -75,7 +79,7 @@ In the video you can see a quadcopter designer trying out their software on a vi
 ## First steps using the robot simulator
 ---
 <div class="container p-3 my-3 bg-primary text-primary">
-<h2>Activity #1</h2>
+<h2>Activity #2</h2>
 </div>
 
 Let's return to the [robotbenchmark](https://robotbenchmark.net/) website
@@ -83,7 +87,7 @@ Let's return to the [robotbenchmark](https://robotbenchmark.net/) website
 Let's start by 
 
 <div class="container p-3 my-3 bg-primary text-primary">
-<h2>Activity #2</h2>
+<h2>Activity #3</h2>
 </div>
 
 
