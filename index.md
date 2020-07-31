@@ -229,3 +229,37 @@ robot.getMotor("motor.right").setPosition(target)
 <div class="container p-3 my-3 bg-primary text-primary">
 <h2>Activity #5</h2>
 </div>
+
+
+```python
+"""A simple robot controller with functions"""
+
+from controller import Robot
+import sys
+
+def moveForwardsInStraightLine(numberOfTimeSteps):
+    target = 9999 # If this number is big and positive the robot will move forwards
+    robot.getMotor("motor.left").setPosition(target)
+    robot.getMotor("motor.right").setPosition(target)
+    robot.step(numberOfTimeSteps) # The robot moves a little bit each time step
+    
+def moveBackwardsInStraightLine(numberOfTimeSteps):
+    target = -9999 # If this number is big and negative the robot will move backwards
+    robot.getMotor("motor.left").setPosition(target)
+    robot.getMotor("motor.right").setPosition(target)
+    robot.step(numberOfTimeSteps)
+    
+def stop():
+    target = 0 # To stop the robot we set the motor target to zero!
+    robot.getMotor("motor.left").setPosition(target)
+    robot.getMotor("motor.right").setPosition(target)
+    
+# Get pointer to the robot.
+robot = Robot()
+
+#--- Main code---
+# The number in brackets tells the robot how long to move for
+moveForwardsInStraightLine(300)  
+moveBackwardsInStraightLine(300)
+stop()
+```
