@@ -129,7 +129,6 @@ In the video you can see robotics professor Sabine Hauert talking about swarms o
 * A window will pop up with python code in it! This is how we program our virtual robot.
 * The same code is shown below with some comments which describe the purpose of each line
 
-<br>
 ```python
 """Simple robot controller."""
 
@@ -152,12 +151,11 @@ sys.stderr.write("This is a sample error message.\n")
 robot.getMotor("motor.left").setPosition(target)
 robot.getMotor("motor.right").setPosition(target)
 ```
-<br>
 
 * The instructions ask us to change the value of the variable **target**
 * Go head and do this now
 * Then save the python file by clicking on the **three bar icon**, and click **save**
-* Now click play to see your virtual robot run your program
+* Now click on the **play button** to see your virtual robot run your program
 
 ![Activity3Picture2](images/programmingRobot_imageText2.jpg)
 
@@ -169,7 +167,7 @@ robot.getMotor("motor.right").setPosition(target)
 <br>
 <br>
 
-# Making the robot turn
+# Making the robot turn on the spot
 ---
 
 <div class="container p-3 my-3 bg-primary text-primary">
@@ -177,5 +175,20 @@ robot.getMotor("motor.right").setPosition(target)
 </div>
 
 ---
+* We're still going to be using the [Robot Programming](https://robotbenchmark.net/benchmark/robot_programming/simulation.php) activity for this program!
+* How do you think you would make the robot turn? So that it doesn't move in a straight line?
+* Right click on the robot and select **Edit controller**
+* Have a look at the code, is there a way you could make a different target for each motor?
+* Give it a go ! if you get stuck you can take a look at the example answer :) 
 
+<div class="container">
+  <h2>Simple Collapsible</h2>
+  <p>Click on the button to toggle between showing and hiding content.</p>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
 
