@@ -40,6 +40,7 @@ Click on the start button for the [pick and place](https://robotbenchmark.net/be
 You will see a video in the top right hand corner of the screen, try click
 
 ## Why simulate robots?
+---
 
 Why would we want to simulate robots? .... Well because it's helpful for designing them.
 
