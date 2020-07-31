@@ -8,7 +8,6 @@ A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) usi
 This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace.
 
 <div class="container p-3 my-3 bg-primary text-primary">
-  
 <h2>Contents</h2>
 <ul class="list-group">
   <li class="list-group-item">Resources</li>
@@ -54,7 +53,7 @@ In the video you can see a quadcopter designer trying out their software on a vi
   <use xlink:href="bootstrap-icons.svg#heart-fill"/>
 </svg>
 
-<div class="container p-3 my-3 bg-primary text-white">
+<div class="container p-3 my-3 bg-info text-white">
 <h2>Poll!</h2>
 <b>Question</b> If you become a robot designer in the future, what kind of robots would you prefer to build? How do you think simulation might be useful for this type of robot?
 </div>
@@ -71,12 +70,23 @@ In the video you can see a quadcopter designer trying out their software on a vi
 [![](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/Another%20kind%20of%20robot%20which%20is%20not%20mentioned%20here...)](https://api.gh-polls.com/poll/01EEGWNXDSQWZF8R4FMM3J1N5W/Another%20kind%20of%20robot%20which%20is%20not%20mentioned%20here.../vote)
 
 [//]: # (Comment: end of embedded poll)
+
 ----
 
 ## First steps using the robot simulator
 ---
+<div class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #1</h2>
+</div>
 
 Let's return to the [robotbenchmark](https://robotbenchmark.net/) website
+
+Let's start by 
+
+<div class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #2</h2>
+</div>
+
 
 ---
 
