@@ -153,7 +153,7 @@ robot.getMotor("motor.right").setPosition(target)
 ```
 
 * The instructions ask us to change the value of the variable **target**
-* Go head and do this now
+* Go ahead and do this now
 * Then save the python file by clicking on the **three bar icon**, and click **save**
 * Now click on the **play button** to see your virtual robot run your program
 
@@ -179,8 +179,9 @@ robot.getMotor("motor.right").setPosition(target)
 * How do you think you would make the robot turn? So that it doesn't move in a straight line?
 * Right click on the robot and select **Edit controller**
 * Have a look at the code, is there a way you could make a different target for each motor?
-* Give it a go ! if you get stuck you can take a look at the example answer :) 
+* Give it a go ! if you get stuck you can take a look at the *example answer* :) 
 * Don't worry if a completion message comes up, if you click on the **okay button** the simulation will keep running
+* Follow the steps above to **save** your robot program and **reset** the simulation
 
 <div class="container">
   <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">Example answer</button>
@@ -215,8 +216,11 @@ robot.getMotor("motor.right").setPosition(target)
   </div>
 </div>
 
+<br>
 ![Activity3Picture3](images/programmingRobot_imageText3.jpg)
+<br>
 ![Activity3CompMessage](images/completionMessageText.jpg)
+<br>
 
 <!--Comment: Paragrpah spacing-->
 <br>
