@@ -133,20 +133,22 @@ In the video you can see robotics professor Sabine Hauert talking about swarms o
 ```python
 """Simple robot controller."""
 
-from controller import Robot
-import sys
+from controller import Robot ## THESE LINES IMPORT CODE LIBRARIES SO WE CAN TALK TO THE ROBOT :)
+import sys 
 
 # Define the target motor position in radians.
-target = 0
+target = 12 ## WE CREATE THIS VARIABLE TO SET HOW FAR THE ROBOT WILL MOVE :)
 
 # Get pointer to the robot.
-robot = Robot()
+robot = Robot() ## HERE WE MAKE A LINK TO THE VIRTUAL ROBOT :)
 
 # Print the program output on the console
+# ## IF YOU CLICK ON THE CONSOLE BUTTON YOU WILL SEE THE PRINT MESSAGES ! :) 
 print("Move the motors of the Thymio II to position " + str(target) + ".")
 sys.stderr.write("This is a sample error message.\n")
 
 # Set the target position of the left and right wheels motors.
+## THESE LINES TELL EACH MOTOR ON THE ROBOT HOW FAR TO MOVE :)
 robot.getMotor("motor.left").setPosition(target)
 robot.getMotor("motor.right").setPosition(target)
 ```
@@ -157,7 +159,7 @@ robot.getMotor("motor.right").setPosition(target)
 * Then save the python file by clicking on the **three bar icon**, and click **save**
 * Now click play to see your virtual robot run your program
 
-
+![Activity3Picture2](images/programmingRobot_imageText2.jpg)
 
 * Try different values for the **target** variable. How about negative values, what does this do?
 * When you want to change the program repeat the steps above
