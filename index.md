@@ -18,6 +18,14 @@ This session is designed to be fun! The idea is that we can follow it together o
 </ul>
 </div>
 
+<div class="container p-3 my-3 bg-info text-info">
+<h2>Resources</h2>
+<ul class="list-group">
+  <a href="https://www.pythoncheatsheet.org/" class="list-group-item list-group-item-action">Python cheatsheet</a>
+  <a href="https://www.cyberbotics.com/doc/reference/index" class="list-group-item list-group-item-action">Webots documentation</a>
+</ul>
+</div>
+
 ## Resources
 ---
 Here are some links that might help us with this sesion! You don't need to click them now! But they might help us as we go along!
@@ -70,7 +78,7 @@ In the video you can see robotics professor Sabine Hauert talking about swarms o
 
 <div class="container p-3 my-3 bg-info text-white">
 <h2>Poll!</h2>
-<b>Question</b> If you become a robot designer in the future, what kind of robots would you prefer to build? How do you think simulation might be useful for this type of robot?
+<b>Question</b> If you become a robot designer in the future, what kind of robots would you prefer to build?
 </div>
 
 <!--Comment: Start of markdown poll-->
@@ -82,7 +90,9 @@ In the video you can see robotics professor Sabine Hauert talking about swarms o
 [![](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Self%20driving%20robots)](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Self%20driving%20robots/vote)
 <!--Comment: End of markdown poll-->
 
-----
+<!--Comment: Paragrpah spacing-->
+<br>
+<br>
 
 # First steps using the robot simulator
 ---
@@ -90,7 +100,7 @@ In the video you can see robotics professor Sabine Hauert talking about swarms o
 <h2>Activity #2</h2>
 </div>
 
-Let's return to the [robotbenchmark](https://robotbenchmark.net/) website
+Let's return to the [robotbenchmark](https://robotbenchmark.net/) website.
 
 Let's start by 
 
