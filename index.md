@@ -76,8 +76,8 @@ In the video you can see robotics professor Sabine Hauert talking about swarms o
 </svg>
 
 <div class="container p-3 my-3 bg-info text-white">
-<h2>Poll!</h2>
-<b>Question</b> If you become a robot designer in the future, what kind of robots would you prefer to build?
+<h2>Poll</h2>
+<b>Question</b> As a future robot designer, what kind of robots will you prefer to build?
 </div>
 
 <!--Comment: Start of markdown poll-->
