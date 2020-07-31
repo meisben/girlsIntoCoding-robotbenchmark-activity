@@ -19,14 +19,6 @@ This session is designed to be fun! The idea is that we can follow it together o
 </ul>
 </div>
 
-* Resources
-* 
-
-* What can you do in a robot simulator?
-* First steps using the robot simulator
-* Making a robot move
-
-
 ## Resources
 ---
 Here are some links that might help us with this sesion! You don't need to click them now! But they might help us as we go along!
