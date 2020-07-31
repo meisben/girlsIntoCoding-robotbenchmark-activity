@@ -23,7 +23,7 @@ This session is designed to be fun! The idea is that we can follow it together o
 </ul>
 </div>
 
-<div class="container p-3 my-3 bg-info text-info">
+<div class="container p-3 my-3 bg-info text-gray">
 <h2>Resources</h2> 
   <p>Here's some resources that may help with the activity. No need to click on them yet! :)</p>
 <ul class="list-group">
@@ -129,8 +129,7 @@ In the video you can see robotics professor Sabine Hauert talking about swarms o
 * A window will pop up with python code in it! This is how we program our virtual robot.
 * The same code is shown below with some comments which describe the purpose of each line
 
-~~~~{.python}
-# python code
+```python
 
 """Simple robot controller."""
 
@@ -151,7 +150,12 @@ sys.stderr.write("This is a sample error message.\n")
 robot.getMotor("motor.left").setPosition(target)
 robot.getMotor("motor.right").setPosition(target)
 
-~~~~
+```
+
+* The instructions ask us to change the value of 
+* The same code is shown below with some comments which describe the purpose of each line
+
+
 
 ---
 
