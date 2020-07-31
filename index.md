@@ -26,13 +26,6 @@ This session is designed to be fun! The idea is that we can follow it together o
 </ul>
 </div>
 
-## Resources
----
-Here are some links that might help us with this sesion! You don't need to click them now! But they might help us as we go along!
-
-* Python cheatsheet
-* Webots documentation
-
 <!--Comment: Paragrpah spacing-->
 <br>
 <br>
@@ -100,9 +93,10 @@ In the video you can see robotics professor Sabine Hauert talking about swarms o
 <h2>Activity #2</h2>
 </div>
 
-Let's return to the [robotbenchmark](https://robotbenchmark.net/) website.
-
-Let's start by 
+* Let's return to the [robotbenchmark](https://robotbenchmark.net/) website.
+* Click on the **Start** button next to the **Viewpoint Control** activity
+* Click on **Start programming this benchmark**
+*
 
 <div class="container p-3 my-3 bg-primary text-primary">
 <h2>Activity #3</h2>
