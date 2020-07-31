@@ -184,33 +184,30 @@ robot.getMotor("motor.right").setPosition(target)
 <div class="container">
   <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">Example answer</button>
   <div id="demo" class="collapse">
-    
-    <span>
-    
-    ```python
-    """Simple robot controller."""
+    <span style="display:block" class="note">
+      ```python
+      """Simple robot controller."""
 
-    from controller import Robot ## THESE LINES IMPORT CODE LIBRARIES SO WE CAN TALK TO THE ROBOT :)
-    import sys 
+      from controller import Robot ## THESE LINES IMPORT CODE LIBRARIES SO WE CAN TALK TO THE ROBOT :)
+      import sys 
 
-    # Define the target motor position in radians.
-    target = 12 ## WE CREATE THIS VARIABLE TO SET HOW FAR THE ROBOT WILL MOVE :)
+      # Define the target motor position in radians.
+      target = 12 ## WE CREATE THIS VARIABLE TO SET HOW FAR THE ROBOT WILL MOVE :)
 
-    # Get pointer to the robot.
-    robot = Robot() ## HERE WE MAKE A LINK TO THE VIRTUAL ROBOT :)
+      # Get pointer to the robot.
+      robot = Robot() ## HERE WE MAKE A LINK TO THE VIRTUAL ROBOT :)
 
-    # Print the program output on the console
-    # ## IF YOU CLICK ON THE CONSOLE BUTTON YOU WILL SEE THE PRINT MESSAGES ! :) 
-    print("Move the motors of the Thymio II to position " + str(target) + ".")
-    sys.stderr.write("This is a sample error message.\n")
+      # Print the program output on the console
+      # ## IF YOU CLICK ON THE CONSOLE BUTTON YOU WILL SEE THE PRINT MESSAGES ! :) 
+      print("Move the motors of the Thymio II to position " + str(target) + ".")
+      sys.stderr.write("This is a sample error message.\n")
 
-    # Set the target position of the left and right wheels motors.
-    ## THESE LINES TELL EACH MOTOR ON THE ROBOT HOW FAR TO MOVE :)
-    robot.getMotor("motor.left").setPosition(target)
-    robot.getMotor("motor.right").setPosition(target)
-    ```
+      # Set the target position of the left and right wheels motors.
+      ## THESE LINES TELL EACH MOTOR ON THE ROBOT HOW FAR TO MOVE :)
+      robot.getMotor("motor.left").setPosition(target)
+      robot.getMotor("motor.right").setPosition(target)
+      ```
     </span>
-    
   </div>
 </div>
 
