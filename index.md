@@ -7,6 +7,12 @@ A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) usi
 
 This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace.
 
+![logoPicture](images/girlsIntoCodingLogo.jpg)
+
+<!--Comment: Paragrpah spacing-->
+<br>
+<br>
+
 <div class="container p-3 my-3 bg-light text-gray">
 <h2>Contents</h2>
 <ul class="list-group">
@@ -46,7 +52,7 @@ We're going to be using [robotbenchmark](https://robotbenchmark.net/) in this ac
 
 <p class="text-primary"><b>Left click:</b> rotate   <b>Right click:</b> move</p>
 
-![introPicture](images/pickAndPlaceScreenText.jpg)
+![Activity1Picture](images/pickAndPlaceScreenText.jpg)
 
 You can click on any of the 'run' buttons to see someone else's attempt at coding the robot. 
 * Try clicking on the run button next to Konstantina's record.
@@ -99,7 +105,7 @@ In the video you can see robotics professor Sabine Hauert talking about swarms o
 * Follow the instructions in the top left hand corner of the screen
 * When you have found the correct view click on the **record** button on the **metrics** tab
 
-![introPicture](images/viewPointControl_imageText1.jpg)
+![Activity2Picture](images/viewPointControl_imageText1.jpg)
 
 <!--Comment: Paragrpah spacing-->
 <br>
