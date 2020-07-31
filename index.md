@@ -215,6 +215,9 @@ robot.getMotor("motor.right").setPosition(target)
   </div>
 </div>
 
+![Activity3Picture3](images/programmingRobot_imageText3.jpg)
+![Activity3CompMessage](images/completionMessageText.jpg)
+
 <!--Comment: Paragrpah spacing-->
 <br>
 <br>
