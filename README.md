@@ -16,7 +16,7 @@ This activity is generated as a webpage at [https://meisben.github.io/girlsIntoC
 
 ## Overview
 
-This activity uses [robotbenchmark](https://robotbenchmark.net/) in this activity, which is a online version of the 'Webots' simulator. 
+This activity uses [robotbenchmark](https://robotbenchmark.net/), which is a online version of the [Webots](https://www.cyberbotics.com/) simulator. 
 
 ![Activity2Picture](images/viewPointControl_imageText1.jpg)
 
