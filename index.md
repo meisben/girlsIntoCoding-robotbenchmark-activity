@@ -46,7 +46,11 @@ You will see a simulation running already, in the top right hand corner of the s
 
 ![introPicture](images/pickAndPlaceScreenText.jpg)
 
-## Why simulate robots?
+<!--Comment: Paragrpah spacing-->
+<br>
+<br>
+
+# Why simulate robots?
 ---
 
 Why would we want to simulate robots? .... Well because it's helpful for designing them.
@@ -66,20 +70,18 @@ In the video you can see a quadcopter designer trying out their software on a vi
 <b>Question</b> If you become a robot designer in the future, what kind of robots would you prefer to build? How do you think simulation might be useful for this type of robot?
 </div>
 
-[//]: # (Comment: start of embedded poll, for source see: https://github.com/apex/gh-polls)
-
+<!--Comment: Start of markdown poll-->
 [![](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Social%20robots)](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Social%20robots/vote)
 [![](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Flying%20robots)](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Flying%20robots/vote)
 [![](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Swarms%20of%20robots)](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Swarms%20of%20robots/vote)
 [![](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Medical%20robots)](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Medical%20robots/vote)
 [![](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Soft%20animal-like%20robots)](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Soft%20animal-like%20robots/vote)
 [![](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Self%20driving%20robots)](https://api.gh-polls.com/poll/01EEJ2P9FR88HJSQ80FQ9N4QZR/Self%20driving%20robots/vote)
-
-[//]: # (Comment: end of embedded poll)
+<!--Comment: End of markdown poll-->
 
 ----
 
-## First steps using the robot simulator
+# First steps using the robot simulator
 ---
 <div class="container p-3 my-3 bg-primary text-primary">
 <h2>Activity #2</h2>
