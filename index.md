@@ -211,3 +211,13 @@ robot.getMotor("motor.right").setPosition(target)
   </div>
 </div>
 
+<!--Comment: Paragrpah spacing-->
+<br>
+<br>
+
+# Making the robot move forward and then turn
+---
+
+<div class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #5</h2>
+</div>
