@@ -62,7 +62,7 @@ Why would we want to simulate robots? .... Well because it's helpful for designi
 
 [![Quad copter video](https://img.youtube.com/vi/xNKR2f1ov2s/0.jpg)](https://youtu.be/xNKR2f1ov2s?t=97)
 
-In the video you can see a robotics professor Sabine Hauert talking about swarms of flying robots. The robots are tested in simulation!. If something is wrong with the software, and the robots crash it doesn't break the real robot! They can just change the software and restart the simulation until they get it right! Then they can try it on the real swarm of robots!
+In the video you can see robotics professor Sabine Hauert talking about swarms of flying robots. The robots are tested in simulation!. If something is wrong with the software, and the robots crash it doesn't break the real robot! They can just change the software and restart the simulation until they get it right! Then they can try it on the real swarm of robots!
 
 <svg class="bi" width="32" height="32" fill="currentColor">
   <use xlink:href="bootstrap-icons.svg#heart-fill"/>
