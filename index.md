@@ -7,6 +7,8 @@ A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) usi
 
 This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace.
 
+<div class="container p-3 my-3 bg-primary text-white">
+  
 ## Contents
 ---
 Here is an overview of this webpage!:
@@ -17,6 +19,8 @@ Here is an overview of this webpage!:
 * What can you do in a robot simulator?
 * First steps using the robot simulator
 * Making a robot move
+
+</div>
 
 ## Resources
 ---
