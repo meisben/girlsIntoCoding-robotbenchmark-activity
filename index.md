@@ -19,7 +19,9 @@ This session is designed to be fun! The idea is that we can follow it together o
   <li class="list-group-item">What is a robot simulator?</li>
   <li class="list-group-item">Why simulate robots?</li>
   <li class="list-group-item">First steps using the robot simulator</li>
-  <li class="list-group-item">Making a robot move</li>
+  <li class="list-group-item">Programming the robot!</li>
+  <li class="list-group-item">Making the robot turn on the spot (creating a new python variable)</li>
+  <li class="list-group-item">Working with python functions</li>
 </ul>
 </div>
 
@@ -27,6 +29,7 @@ This session is designed to be fun! The idea is that we can follow it together o
 <h2>Resources</h2> 
   <p>Here's some resources that may help with the activity. No need to click on them yet! :)</p>
 <ul class="list-group">
+  <a href="https://www.w3schools.com/python/" target="_blank" class="list-group-item list-group-item-action">Python tutorials at W3 Schools</a>
   <a href="https://www.pythoncheatsheet.org/" target="_blank" class="list-group-item list-group-item-action">Python cheatsheet</a>
   <a href="https://www.cyberbotics.com/doc/reference/index" target="_blank" class="list-group-item list-group-item-action">Webots documentation</a>
 </ul>
@@ -167,7 +170,7 @@ robot.getMotor("motor.right").setPosition(target)
 <br>
 <br>
 
-# Making the robot turn on the spot
+# Making the robot turn on the spot (creating a new python variable)
 ---
 
 <div class="container p-3 my-3 bg-primary text-primary">
@@ -178,7 +181,7 @@ robot.getMotor("motor.right").setPosition(target)
 * We're still going to be using the [Robot Programming](https://robotbenchmark.net/benchmark/robot_programming/simulation.php) activity for this program!
 * How do you think you would make the robot turn? So that it doesn't move in a straight line?
 * Right click on the robot and select **Edit controller**
-* Have a look at the code, is there a way you could make a different target for each motor?
+* Have a look at the code, is there a way you could make a different target for each motor by making a new variable?
 * Give it a go ! if you get stuck you can take a look at the *example answer* :) 
 * Don't worry if a completion message comes up, if you click on the **okay button** the simulation will keep running
 * Follow the steps above to **save** your robot program and **reset** the simulation
