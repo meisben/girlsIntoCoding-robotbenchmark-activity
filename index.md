@@ -184,6 +184,17 @@ robot.getMotor("motor.right").setPosition(target)
 * Follow the steps above to **save** your robot program and **reset** the simulation
 
 <div class="container">
+  <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#demo0">Resources</button>
+  <div id="demo0" class="collapse">
+      
+      <p><mark>Python variables explaination at <a href="https://www.w3schools.com/python/python_variables.asp">W3 schools :)</a></mark></p>
+    
+  </div>
+</div>
+
+<br>
+
+<div class="container">
   <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo2">Example answer</button>
   <div id="demo2" class="collapse" markdown="1">
       
