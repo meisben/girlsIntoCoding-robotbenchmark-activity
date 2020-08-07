@@ -230,6 +230,17 @@ robot.getMotor("motor.right").setPosition(target)
 <h2>Activity #5</h2>
 </div>
 
+---
+* We're still going to be using the [Robot Programming](https://robotbenchmark.net/benchmark/robot_programming/simulation.php) activity for this program!
+* It would be nice to write a program so that we can just say to the robot *"turn left"* or *"go backwards for 2 seconds"*
+* We can achieve this using **python functions** (this is also called functional programming). If you've not used python functions before, have a look at the resources!!
+* Right click on the robot and select **Edit controller**
+* Below is an example of some code with two functions: *stopRobot()* and *moveForwardsInStraightLine(numberofTimeSteps)*
+* The *numberofTimeSteps* tell the robot how long to carry out that movement
+* Have a look at the code, is there a way you could make three more functions?: **moveForwardsInStraightLine**, **turnClockwiseOnSpot**, and **turnAntiClockwiseOnSpot**
+* Give it a go ! if you get stuck you can take a look at the *example answer* :) 
+* Don't worry if a completion message comes up, if you click on the **okay button** the simulation will keep running
+* Follow the steps above to **save** your robot program and **reset** the simulation
 
 ```python
 """A simple robot controller with functions"""
@@ -282,6 +293,65 @@ turnClockwiseOnSpot(1000)
 turnAntiClockwiseOnSpot(1000)
 stopRobot()
 ```
+
+<br>
+<br>
+
+<div class="container">
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Hint</button>
+  <div id="demo" class="collapse" markdown="1">
+    
+    Here is an example of how to write a function to turn on the spot (**turnClockwiseOnSpot**). Copy this code into your robot controller and experiment with it. Can you see how it works? Can you use the same idea to write the other functions? 
+    
+    ```
+    """A simple robot controller with functions"""
+
+    # --- Import the code libraries we need---
+    from controller import Robot
+    import sys
+
+    # --- Make global variabes --
+    robotVelocity = 7 # The speed we want the robot to travel at (takes values 0->9.5)
+
+    # --- Create the functions we are going to use ---
+    def stopRobot():
+        targetVelocity = 0 # To stop the robot we set the motor target to zero!
+        robot.getMotor("motor.left").setVelocity(targetVelocity)
+        robot.getMotor("motor.right").setVelocity(targetVelocity)
+
+    def setRobotSpeed(myVelocity):
+        robot.getMotor("motor.left").setVelocity(myVelocity)
+        robot.getMotor("motor.right").setVelocity(myVelocity)
+
+    def moveForwardsInStraightLine(numberOfTimeSteps):
+        setRobotSpeed(robotVelocity) # First we set the velocity (in case the robot just stopped)
+        target = 9999 # If this number is big and positive the robot will move forwards
+        robot.getMotor("motor.left").setPosition(target) #Assign the motor directions!
+        robot.getMotor("motor.right").setPosition(target)
+        robot.step(numberOfTimeSteps) # The robot moves a little bit each time step
+
+    def turnClockwiseOnSpot(numberOfTimeSteps):
+        setRobotSpeed(robotVelocity) # First we set the velocity (in case the robot just stopped)
+        targetLeft = 9999 # Turn wheel forwards
+        targetRight = -9999 # Turn wheel backwards
+        robot.getMotor("motor.left").setPosition(targetLeft) #Assign the motor directions!
+        robot.getMotor("motor.right").setPosition(targetRight)
+        robot.step(numberOfTimeSteps)
+
+    # --- Main code---
+
+    # Get pointer to the robot.
+    robot = Robot()
+
+    # The number in brackets tells the robot how long to move for
+    turnClockwiseOnSpot(1000)
+    moveForwardsInStraightLine(1000)  
+    stopRobot()    
+    ```
+    
+    
+  </div>
+</div>
 
 <br>
 <br>
