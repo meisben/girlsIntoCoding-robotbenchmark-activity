@@ -249,37 +249,26 @@ robot.getMotor("motor.right").setPosition(target)
 from controller import Robot
 import sys
 
+# --- Make global variabes --
+robotVelocity = 7 # The speed we want the robot to travel at (takes values 0->9.5)
+
 # --- Create the functions we are going to use ---
+def stopRobot():
+    targetVelocity = 0 # To stop the robot we set the motor target to zero!
+    robot.getMotor("motor.left").setVelocity(targetVelocity)
+    robot.getMotor("motor.right").setVelocity(targetVelocity)
+    
+def setRobotSpeed(myVelocity):
+    robot.getMotor("motor.left").setVelocity(myVelocity)
+    robot.getMotor("motor.right").setVelocity(myVelocity)
+
 def moveForwardsInStraightLine(numberOfTimeSteps):
+    setRobotSpeed(robotVelocity) # First we set the velocity (in case the robot just stopped)
     target = 9999 # If this number is big and positive the robot will move forwards
     robot.getMotor("motor.left").setPosition(target) #Assign the motor directions!
     robot.getMotor("motor.right").setPosition(target)
     robot.step(numberOfTimeSteps) # The robot moves a little bit each time step
-    
-def moveBackwardsInStraightLine(numberOfTimeSteps):
-    target = -9999 # If this number is big and negative the robot will move backwards
-    robot.getMotor("motor.left").setPosition(target)
-    robot.getMotor("motor.right").setPosition(target)
-    robot.step(numberOfTimeSteps)
-    
-def stopRobot():
-    target = 0 # To stop the robot we set the motor target to zero!
-    robot.getMotor("motor.left").setPosition(target)
-    robot.getMotor("motor.right").setPosition(target)
-    
-def turnClockwiseOnSpot(numberOfTimeSteps):
-    targetLeft = 9999 # Turn wheel forwards
-    targetRight = -9999 # Turn wheel backwards
-    robot.getMotor("motor.left").setPosition(targetLeft) #Assign the motor directions!
-    robot.getMotor("motor.right").setPosition(targetRight)
-    robot.step(numberOfTimeSteps)
-    
-def turnAntiClockwiseOnSpot(numberOfTimeSteps):
-    targetLeft = -9999 # Turn wheel backwards
-    targetRight = 9999 # Turn wheel forwards
-    robot.getMotor("motor.left").setPosition(targetLeft)
-    robot.getMotor("motor.right").setPosition(targetRight)
-    robot.step(numberOfTimeSteps)
+
 
 # --- Main code---
 
@@ -288,10 +277,7 @@ robot = Robot()
 
 # The number in brackets tells the robot how long to move for
 moveForwardsInStraightLine(1000)  
-moveBackwardsInStraightLine(1000)
-turnClockwiseOnSpot(1000)
-turnAntiClockwiseOnSpot(1000)
-stopRobot()
+stopRobot()    
 ```
 
 <br>
@@ -301,7 +287,7 @@ stopRobot()
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Hint</button>
   <div id="demo" class="collapse" markdown="1">
     
-    Here is an example of how to write a function to turn on the spot (**turnClockwiseOnSpot**). Copy this code into your robot controller and experiment with it. Can you see how it works? Can you use the same idea to write the other functions? 
+    <p>Here is an example of how to write a function to turn on the spot (**turnClockwiseOnSpot**). Copy this code into your robot controller and experiment with it. Can you see how it works? Can you use the same idea to write the other functions? </p>
     
     ```
     """A simple robot controller with functions"""
