@@ -255,47 +255,6 @@ robot.getMotor("motor.right").setPosition(target)
 
 <br>
 
-```python
-"""A simple robot controller with functions"""
-
-# --- Import the code libraries we need---
-from controller import Robot
-import sys
-
-# --- Make global variabes --
-robotVelocity = 7 # The speed we want the robot to travel at (takes values 0->9.5)
-
-# --- Create the functions we are going to use ---
-def stopRobot():
-    targetVelocity = 0 # To stop the robot we set the motor target to zero!
-    robot.getMotor("motor.left").setVelocity(targetVelocity)
-    robot.getMotor("motor.right").setVelocity(targetVelocity)
-    
-def setRobotSpeed(myVelocity):
-    robot.getMotor("motor.left").setVelocity(myVelocity)
-    robot.getMotor("motor.right").setVelocity(myVelocity)
-
-def moveForwardsInStraightLine(numberOfTimeSteps):
-    setRobotSpeed(robotVelocity) # First we set the velocity (in case the robot just stopped)
-    target = 9999 # If this number is big and positive the robot will move forwards
-    robot.getMotor("motor.left").setPosition(target) #Assign the motor directions!
-    robot.getMotor("motor.right").setPosition(target)
-    robot.step(numberOfTimeSteps) # The robot moves a little bit each time step
-
-
-# --- Main code---
-
-# Get pointer to the robot.
-robot = Robot()
-
-# The number in brackets tells the robot how long to move for
-moveForwardsInStraightLine(1000)  
-stopRobot()    
-```
-
-<br>
-<br>
-
 <div class="container">
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo4">Hint</button>
   <div id="demo4" class="collapse" markdown="1">
@@ -423,4 +382,48 @@ stopRobot()
     
   </div>
 </div>
+
 <br>
+
+```python
+"""A simple robot controller with functions"""
+
+# --- Import the code libraries we need---
+from controller import Robot
+import sys
+
+# --- Make global variabes --
+robotVelocity = 7 # The speed we want the robot to travel at (takes values 0->9.5)
+
+# --- Create the functions we are going to use ---
+def stopRobot():
+    targetVelocity = 0 # To stop the robot we set the motor target to zero!
+    robot.getMotor("motor.left").setVelocity(targetVelocity)
+    robot.getMotor("motor.right").setVelocity(targetVelocity)
+    
+def setRobotSpeed(myVelocity):
+    robot.getMotor("motor.left").setVelocity(myVelocity)
+    robot.getMotor("motor.right").setVelocity(myVelocity)
+
+def moveForwardsInStraightLine(numberOfTimeSteps):
+    setRobotSpeed(robotVelocity) # First we set the velocity (in case the robot just stopped)
+    target = 9999 # If this number is big and positive the robot will move forwards
+    robot.getMotor("motor.left").setPosition(target) #Assign the motor directions!
+    robot.getMotor("motor.right").setPosition(target)
+    robot.step(numberOfTimeSteps) # The robot moves a little bit each time step
+
+
+# --- Main code---
+
+# Get pointer to the robot.
+robot = Robot()
+
+# The number in brackets tells the robot how long to move for
+moveForwardsInStraightLine(1000)  
+stopRobot()    
+```
+
+<br>
+<br>
+
+
