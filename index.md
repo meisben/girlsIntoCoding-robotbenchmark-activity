@@ -199,7 +199,7 @@ robot.getMotor("motor.right").setPosition(target)
 
 <div class="container">
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo4">Hint</button>
-  <div id="demo4" class="collapse" markdown="1">
+  <div id="demo4" class="collapse">
     
     <p><mark>Try making a new variable, so that you have a target position for each wheel!</mark></p>   
    
