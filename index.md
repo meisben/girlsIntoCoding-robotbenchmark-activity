@@ -284,6 +284,17 @@ stopRobot()
 <br>
 
 <div class="container">
+  <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#demo3">Resources</button>
+  <div id="demo3" class="collapse" markdown="1">
+      
+      <p>Python functions explaination at <a href="https://www.w3schools.com/python/python_functions.asp">W3 schools :)</a></p>
+    
+  </div>
+</div>
+
+<br>
+
+<div class="container">
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo4">Hint</button>
   <div id="demo4" class="collapse" markdown="1">
     
