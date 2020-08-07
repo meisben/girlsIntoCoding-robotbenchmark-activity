@@ -15,7 +15,7 @@ This session is designed to be fun! The idea is that we can follow it together o
 <div class="container p-3 my-3 bg-primary">
 <h2>Contents</h2>
 <ul class="list-group">
-  <li class="list-group-item">Resources</li>
+  <li class="list-group-item"><a href="#Activity4">Resources</a></li>
   <li class="list-group-item">What is a robot simulator?</li>
   <li class="list-group-item">Why simulate robots?</li>
   <li class="list-group-item">First steps using the robot simulator</li>
@@ -173,7 +173,7 @@ robot.getMotor("motor.right").setPosition(target)
 # Making the robot turn on the spot (creating a new python variable)
 ---
 
-<div class="container p-3 my-3 bg-primary text-primary">
+<div id="Activity4" class="container p-3 my-3 bg-primary text-primary">
 <h2>Activity #4</h2>
 </div>
 
