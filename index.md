@@ -184,8 +184,8 @@ robot.getMotor("motor.right").setPosition(target)
 * Follow the steps above to **save** your robot program and **reset** the simulation
 
 <div class="container">
-  <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">Example answer</button>
-  <div id="demo" class="collapse" markdown="1">
+  <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo2">Example answer</button>
+  <div id="demo2" class="collapse" markdown="1">
       
     """Simple robot controller."""
 
@@ -284,12 +284,13 @@ stopRobot()
 <br>
 
 <div class="container">
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Hint</button>
-  <div id="demo" class="collapse" markdown="1">
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo4">Hint</button>
+  <div id="demo4" class="collapse" markdown="1">
     
-    <p>Here is an example of how to write a function to turn on the spot (**turnClockwiseOnSpot**). Copy this code into your robot controller and experiment with it. Can you see how it works? Can you use the same idea to write the other functions? </p>
+    # Here is an example of how to write a function to turn on the spot (**turnClockwiseOnSpot**). 
+    # Copy this code into your robot controller and experiment with it. Can you see how it works? 
+    # Can you use the same idea to write the other functions? </p>
     
-    ```
     """A simple robot controller with functions"""
 
     # --- Import the code libraries we need---
@@ -333,18 +334,14 @@ stopRobot()
     turnClockwiseOnSpot(1000)
     moveForwardsInStraightLine(1000)  
     stopRobot()    
-    ```
-    
+   
     
   </div>
 </div>
 
-<br>
-<br>
-
 <div class="container">
-  <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">Example answer</button>
-  <div id="demo" class="collapse" markdown="1">
+  <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo5">Example answer</button>
+  <div id="demo5" class="collapse" markdown="1">
       
     """A simple robot controller with functions"""
 
