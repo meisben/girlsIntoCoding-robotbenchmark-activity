@@ -242,6 +242,19 @@ robot.getMotor("motor.right").setPosition(target)
 * Don't worry if a completion message comes up, if you click on the **okay button** the simulation will keep running
 * Follow the steps above to **save** your robot program and **reset** the simulation
 
+<br>
+
+<div class="container">
+  <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#demo3">Resources</button>
+  <div id="demo3" class="collapse">
+      
+      <p>Python functions explaination at <a href="https://www.w3schools.com/python/python_functions.asp">W3 schools :)</a></p>
+    
+  </div>
+</div>
+
+<br>
+
 ```python
 """A simple robot controller with functions"""
 
@@ -281,17 +294,6 @@ stopRobot()
 ```
 
 <br>
-<br>
-
-<div class="container">
-  <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#demo3">Resources</button>
-  <div id="demo3" class="collapse" markdown="1">
-      
-      <p>Python functions explaination at <a href="https://www.w3schools.com/python/python_functions.asp">W3 schools :)</a></p>
-    
-  </div>
-</div>
-
 <br>
 
 <div class="container">
