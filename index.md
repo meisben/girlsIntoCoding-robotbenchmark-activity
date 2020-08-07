@@ -248,7 +248,7 @@ robot.getMotor("motor.right").setPosition(target)
   <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#demo3">Resources</button>
   <div id="demo3" class="collapse">
       
-      <p>Python functions explaination at <a href="https://www.w3schools.com/python/python_functions.asp">W3 schools :)</a></p>
+      <p><mark>Python functions explaination at <a href="https://www.w3schools.com/python/python_functions.asp">W3 schools :)</a></mark></p>
     
   </div>
 </div>
