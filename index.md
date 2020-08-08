@@ -50,7 +50,7 @@ A robot simulator is like a video game, with robots in it! It's a very realistic
 We're going to be using [robotbenchmark](https://robotbenchmark.net/) in this activity, which is a online version of the 'Webots' simulator. 
 
 * Navigate there in your browser now, by clicking this [link](https://robotbenchmark.net/).
-* Click on the start button next to the pick and place activity.
+* Click on the start button next to the **pick and place** activity.
 * You will see a simulation running already, in the top right hand corner of the screen, try clicking on it to change the view.
 
 <p class="text-primary"><b>Left click:</b> rotate   <b>Right click:</b> move</p>
