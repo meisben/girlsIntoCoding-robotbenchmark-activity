@@ -15,17 +15,17 @@ This session is designed to be fun! The idea is that we can follow it together o
 <div class="container p-3 my-3 bg-primary">
 <h2>Contents</h2>
 <ul class="list-group">
-  <li class="list-group-item"><a href="#Activity4">Resources</a></li>
-  <li class="list-group-item">What is a robot simulator?</li>
-  <li class="list-group-item">Why simulate robots?</li>
-  <li class="list-group-item">First steps using the robot simulator</li>
-  <li class="list-group-item">Programming the robot!</li>
-  <li class="list-group-item">Making the robot turn on the spot (creating a new python variable)</li>
-  <li class="list-group-item">Working with python functions</li>
+  <li class="list-group-item"><a href="#resourcesPanel">Resources</a></li>
+  <li class="list-group-item"><a href="#Activity1">What is a robot simulator?</a></li>
+  <li class="list-group-item"><a href="#ActivitySim">Why simulate robots?</a></li>
+  <li class="list-group-item"><a href="#Activity2">First steps using the robot simulator</a></li>
+  <li class="list-group-item"><a href="#Activity3">Programming the robot!</a></li>
+  <li class="list-group-item"><a href="#Activity4">Making the robot turn on the spot (creating a new python variable)</a></li>
+  <li class="list-group-item"><a href="#Activity5">Working with python functions</a></li>
 </ul>
 </div>
 
-<div class="container p-3 my-3 bg-info">
+<div id="resourcesPanel" class="container p-3 my-3 bg-info">
 <h2>Resources</h2> 
   <p>Here's some resources that may help with the activity. No need to click on them yet! :)</p>
 <ul class="list-group">
@@ -43,7 +43,7 @@ This session is designed to be fun! The idea is that we can follow it together o
 ---
 A robot simulator is like a video game, with robots in it! It's a very realistic version of the world, with one or more virtual robots inside. Let's try it out !! 
 
-<div class="container p-3 my-3 bg-primary text-primary">
+<div id="Activity1" class="container p-3 my-3 bg-primary text-primary">
 <h2>Activity #1</h2>
 </div>
 
@@ -64,6 +64,8 @@ You can click on any of the 'run' buttons to see someone else's attempt at codin
 <!--Comment: Paragrpah spacing-->
 <br>
 <br>
+
+<div id="ActivitySim"></div>
 
 # Why simulate robots?
 ---
@@ -98,7 +100,7 @@ In the video you can see robotics professor Sabine Hauert talking about swarms o
 
 # First steps using the robot simulator
 ---
-<div class="container p-3 my-3 bg-primary text-primary">
+<div id="Activity2" class="container p-3 my-3 bg-primary text-primary">
 <h2>Activity #2</h2>
 </div>
 
@@ -117,7 +119,7 @@ In the video you can see robotics professor Sabine Hauert talking about swarms o
 # Programming the robot!
 ---
 
-<div class="container p-3 my-3 bg-primary text-primary">
+<div id="Activity3" class="container p-3 my-3 bg-primary text-primary">
 <h2>Activity #3</h2>
 </div>
 
@@ -251,7 +253,7 @@ robot.getMotor("motor.right").setPosition(target)
 # Working with python functions
 ---
 
-<div class="container p-3 my-3 bg-primary text-primary">
+<div id="Activity5" class="container p-3 my-3 bg-primary text-primary">
 <h2>Activity #5</h2>
 </div>
 
