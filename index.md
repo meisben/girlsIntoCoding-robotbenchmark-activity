@@ -454,3 +454,27 @@ stopRobot()
 <br>
 
 
+# Using python loops to make shapes with the robot!
+---
+
+<div id="Activity6" class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #6</h2>
+</div>
+
+---
+* We're still going to be using the [Robot Programming](https://robotbenchmark.net/benchmark/robot_programming/simulation.php) activity for this program!
+* It would be nice to use our **python functions** so the robot can travel in a shape that we choose ! Like a square or a zig zag path
+* Can you think of how we might do this with python loops? ... an example is below
+
+<br>
+
+<div class="container">
+  <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#demo6">Resources</button>
+  <div id="demo6" class="collapse">
+      
+      <p><mark>Python loops explaination at <a href="https://www.w3schools.com/python/python_for_loops.asp">W3 schools :)</a></mark></p>
+    
+  </div>
+</div>
+
+<br>
