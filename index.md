@@ -27,7 +27,7 @@ This session is designed to be fun! The idea is that we can follow it together o
 
 <div id="resourcesPanel" class="container p-3 my-3 bg-info">
 <h2>Resources</h2> 
-  <p>Here's some resources that may help with the activity. No need to click on them yet! :)</p>
+  <p>Here's some resources that may help with the activity</p>
 <ul class="list-group">
   <a href="https://www.w3schools.com/python/" target="_blank" class="list-group-item list-group-item-action">Python tutorials at W3 Schools</a>
   <a href="https://www.pythoncheatsheet.org/" target="_blank" class="list-group-item list-group-item-action">Python cheatsheet</a>
