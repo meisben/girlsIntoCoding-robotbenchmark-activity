@@ -484,8 +484,8 @@ stopRobot()
 <br>
 
 <div class="container">
-  <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo6">Example answer</button>
-  <div id="demo6" class="collapse" markdown="1">
+  <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo7">Example answer</button>
+  <div id="demo7" class="collapse" markdown="1">
       
     """A simple robot controller with functions"""
 
