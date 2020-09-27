@@ -550,3 +550,104 @@ stopRobot()
     
   </div>
 </div>
+
+
+# Putting our code to make shapes into python functions!
+---
+
+<div id="Activity7" class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #7</h2>
+</div>
+
+---
+* We're still going to be using the [Robot Programming](https://robotbenchmark.net/benchmark/robot_programming/simulation.php) activity for this program!
+* It would be nice to use our **python functions** so that we can write a function to 'move in a square pattern' or 'move in a zig zag'.
+* This is called *abstraction*
+* Can you think of how we might do this with python functions? ... and example is below
+
+<br>
+
+<div class="container">
+  <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo8">Example answer</button>
+  <div id="demo8" class="collapse" markdown="1">
+      
+    """A simple robot controller with functions"""
+
+    # --- Import the code libraries we need---
+    from controller import Robot
+    import sys
+
+    # --- Make global variabes --
+    robotVelocity = 7 # The speed we want the robot to travel at (takes values 0->9.5)
+
+    # --- Create the functions we are going to use ---
+    def stopRobot():
+        targetVelocity = 0 # To stop the robot we set the motor target to zero!
+        robot.getMotor("motor.left").setVelocity(targetVelocity)
+        robot.getMotor("motor.right").setVelocity(targetVelocity)
+
+    def setRobotSpeed(myVelocity):
+        robot.getMotor("motor.left").setVelocity(myVelocity)
+        robot.getMotor("motor.right").setVelocity(myVelocity)
+
+    def moveForwardsInStraightLine(numberOfTimeSteps):
+        setRobotSpeed(robotVelocity) # First we set the velocity (in case the robot just stopped)
+        target = 9999 # If this number is big and positive the robot will move forwards
+        robot.getMotor("motor.left").setPosition(target) #Assign the motor directions!
+        robot.getMotor("motor.right").setPosition(target)
+        robot.step(numberOfTimeSteps) # The robot moves a little bit each time step
+
+    def moveBackwardsInStraightLine(numberOfTimeSteps):
+        setRobotSpeed(robotVelocity) # First we set the velocity (in case the robot just stopped)
+        target = -9999 # If this number is big and negative the robot will move backwards
+        robot.getMotor("motor.left").setPosition(target)
+        robot.getMotor("motor.right").setPosition(target)
+        robot.step(numberOfTimeSteps)
+
+    def turnClockwiseOnSpot(numberOfTimeSteps):
+        setRobotSpeed(robotVelocity) # First we set the velocity (in case the robot just stopped)
+        targetLeft = 9999 # Turn wheel forwards
+        targetRight = -9999 # Turn wheel backwards
+        robot.getMotor("motor.left").setPosition(targetLeft) #Assign the motor directions!
+        robot.getMotor("motor.right").setPosition(targetRight)
+        robot.step(numberOfTimeSteps)
+
+    def turnAntiClockwiseOnSpot(numberOfTimeSteps):
+        setRobotSpeed(robotVelocity) # First we set the velocity (in case the robot just stopped)
+        targetLeft = -9999 # Turn wheel backwards
+        targetRight = 9999 # Turn wheel forwards
+        robot.getMotor("motor.left").setPosition(targetLeft)
+        robot.getMotor("motor.right").setPosition(targetRight)
+        robot.step(numberOfTimeSteps)
+
+    def completeSquareMovement(numberOfItterations):
+        # The number in brackets tells the robot how long to move for
+        # The numberOfItterations tell the robot how many squares to complete
+        for i in range(4*numberOfItterations):
+            moveForwardsInStraightLine(1000) 
+            turnClockwiseOnSpot(600)
+        stopRobot()    
+
+    def completeZigZagMovement(numberOfItterations):
+        # The number in brackets tells the robot how long to move for
+        # The numberOfItterations tell the robot how many zigZags to complete
+        zigZagDirection = 1
+        for i in range(2*numberOfItterations):
+            moveForwardsInStraightLine(1000) 
+            if zigZagDirection == 1:
+                turnClockwiseOnSpot(600)
+            else:
+                turnAntiClockwiseOnSpot(600)
+            zigZagDirection = zigZagDirection * -1
+        stopRobot()     
+
+    # --- Main code---
+
+    # Get pointer to the robot.
+    robot = Robot()
+
+    completeSquareMovement(2)
+    completeZigZagMovement(2)   
+    
+  </div>
+</div>
