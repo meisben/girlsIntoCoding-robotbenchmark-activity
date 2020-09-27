@@ -553,6 +553,9 @@ stopRobot()
   </div>
 </div>
 
+<br>
+<br>
+
 
 # Putting our code to make shapes into python functions!
 ---
@@ -567,7 +570,6 @@ stopRobot()
 * This is called *abstraction*
 * Can you think of how we might do this with python functions? ... and example is below
 
-<br>
 <br>
 
 <div class="container">
