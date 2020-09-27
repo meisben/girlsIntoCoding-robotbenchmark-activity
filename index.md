@@ -22,6 +22,8 @@ This session is designed to be fun! The idea is that we can follow it together o
   <li class="list-group-item"><a href="#Activity3">Programming the robot!</a></li>
   <li class="list-group-item"><a href="#Activity4">Making the robot turn on the spot (creating a new python variable)</a></li>
   <li class="list-group-item"><a href="#Activity5">Working with python functions</a></li>
+  <li class="list-group-item"><a href="#Activity6">Using python loops to make shapes with the robot!</a></li>
+  <li class="list-group-item"><a href="#Activity7">Putting our code to make shapes into python functions!</a></li>
 </ul>
 </div>
 
@@ -565,6 +567,7 @@ stopRobot()
 * This is called *abstraction*
 * Can you think of how we might do this with python functions? ... and example is below
 
+<br>
 <br>
 
 <div class="container">
